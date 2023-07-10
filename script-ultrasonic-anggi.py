@@ -1,7 +1,8 @@
 import RPi.GPIO as GPIO
 import time
 import atexit
- 
+
+#GPIO.setwarnings(False)
 #GPIO Mode (BOARD / BCM)
 GPIO.setmode(GPIO.BCM)
  
